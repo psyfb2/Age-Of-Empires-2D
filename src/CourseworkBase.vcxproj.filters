@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\1 Demos">
+      <UniqueIdentifier>{4af3086a-f0ad-4421-8647-84b711bdf81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1 Framework">
+      <UniqueIdentifier>{4e4a6a07-d337-42ef-975e-413637bbb864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2 Advanced Framework">
+      <UniqueIdentifier>{4131a9d2-db12-4b0d-8585-d40d60aa4b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2 More Advanced Demos">
+      <UniqueIdentifier>{74cd58c5-7fe5-46ff-9a3f-60771564d165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3 Very Advanced Cards Demo">
+      <UniqueIdentifier>{1e15440c-2c6a-490a-8f8d-7aa781f7a0c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2 Advanced Framework">
+      <UniqueIdentifier>{7fc5a5ec-fa7d-4739-b176-6f5538b86764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1 Demos">
+      <UniqueIdentifier>{43825ca5-b5e1-402d-a57a-be1b7f41d1ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1 Framework">
+      <UniqueIdentifier>{82649680-6f01-4f4b-9016-33d2f9930b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2 More Advanced Demos">
+      <UniqueIdentifier>{928099e3-f64c-47db-903a-8620e0f84f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Very Advanced Cards Demo">
+      <UniqueIdentifier>{e8366b83-b6ea-4055-9a30-9447a56196f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Age Of Empires 2D">
+      <UniqueIdentifier>{5bb6fe47-930c-49bc-af18-4592238e33fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Age Of Empires 2D">
+      <UniqueIdentifier>{17d3838b-8f7d-4cac-9877-0f7d6c24797a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEngine.h">
+      <Filter>Header Files\1 Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayableObject.h">
+      <Filter>Header Files\1 Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header Files\1 Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementPosition.h">
+      <Filter>Header Files\1 Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="templates.h">
+      <Filter>Header Files\1 Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>Header Files\1 Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingBall.h">
+      <Filter>Header Files\1 Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingBallMain.h">
+      <Filter>Header Files\1 Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleDemo.h">
+      <Filter>Header Files\1 Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeDemoMain.h">
+      <Filter>Header Files\1 Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeDemoObject.h">
+      <Filter>Header Files\1 Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeDemoTileManager.h">
+      <Filter>Header Files\1 Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageObject.h">
+      <Filter>Header Files\1 Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="CardOrTile.h">
+      <Filter>Header Files\3 Very Advanced Cards Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="CardContainer.h">
+      <Filter>Header Files\3 Very Advanced Cards Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="DragableTokenContainer.h">
+      <Filter>Header Files\3 Very Advanced Cards Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="DragableToken.h">
+      <Filter>Header Files\3 Very Advanced Cards Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Notify.h">
+      <Filter>Header Files\3 Very Advanced Cards Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenTray.h">
+      <Filter>Header Files\3 Very Advanced Cards Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayingCardsDemo.h">
+      <Filter>Header Files\3 Very Advanced Cards Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="RawImage.h">
+      <Filter>Header Files\2 Advanced Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DragableObject.h">
+      <Filter>Header Files\2 Advanced Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterPoints.h">
+      <Filter>Header Files\2 Advanced Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayableObjectContainer.h">
+      <Filter>Header Files\1 Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DragAlignment.h">
+      <Filter>Header Files\2 Advanced Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingFilters.h">
+      <Filter>Header Files\2 Advanced Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingSurface.h">
+      <Filter>Header Files\2 Advanced Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DraggingDemo.h">
+      <Filter>Header Files\2 More Advanced Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoomingDemo.h">
+      <Filter>Header Files\2 More Advanced Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>Header Files\1 Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DragableImageObject.h">
+      <Filter>Header Files\2 Advanced Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Header Files\1 Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleImage.h">
+      <Filter>Header Files\1 Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingObject.h">
+      <Filter>Header Files\1 Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingImageObject.h">
+      <Filter>Header Files\1 Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageObjectDemo.h">
+      <Filter>Header Files\1 Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="JasonsDemoA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JasonsObjectA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JasonsTileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyObjectA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Psyfb2.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialAbilityDeployer.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialAbilityDeployerAI.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="BallBouncer.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Psyfb2TileManager.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickableImage.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheetAnimation.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAI.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseState.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Header Files\Age Of Empires 2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainfunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEngine.cpp">
+      <Filter>Source Files\1 Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayableObject.cpp">
+      <Filter>Source Files\1 Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source Files\1 Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>Source Files\1 Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncingBall.cpp">
+      <Filter>Source Files\1 Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncingBallMain.cpp">
+      <Filter>Source Files\1 Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleDemo.cpp">
+      <Filter>Source Files\1 Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Images.cpp">
+      <Filter>Source Files\1 Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeDemoObject.cpp">
+      <Filter>Source Files\1 Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeDemoMain.cpp">
+      <Filter>Source Files\1 Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeDemoTileManager.cpp">
+      <Filter>Source Files\1 Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingSurface.cpp">
+      <Filter>Source Files\2 Advanced Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="RawImage.cpp">
+      <Filter>Source Files\2 Advanced Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoomingDemo.cpp">
+      <Filter>Source Files\2 More Advanced Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="DraggingDemo.cpp">
+      <Filter>Source Files\2 More Advanced Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayingCardsDemo.cpp">
+      <Filter>Source Files\3 Very Advanced Cards Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageObjectDemo.cpp">
+      <Filter>Source Files\1 Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="JasonsDemoA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JasonsObjectA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JasonsTileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyObjectA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Psyfb2.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialAbilityDeployer.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialAbilityDeployerAI.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="BallBouncer.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Psyfb2TileManager.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickableImage.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheetAnimation.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="GameAI.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseState.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files\Age Of Empires 2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CourseworkBase2018.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
